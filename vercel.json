@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://sign.lagrangecore.org/"
+      "source": "/:match*",
+      "destination": "https://sign.lagrangecore.org/:match*"
     }
   ]
 }
